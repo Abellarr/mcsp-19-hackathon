@@ -8,4 +8,4 @@ I started with some documentation reading on Bootstrap's website and some YouTub
 
 *** Small word of caution: the Bootstrap library focuses first on mobile browsers, then on web browsers. It doesn't affect it's compatibility with the major web browsers (Chrome, Firefox, Safari, etc), just know that it looks first to fit/work with mobile browsers so sometimes the default settings will reflect this. If you're building something that you want to go on both (and who isn't?) then this will work very well. ***
 
-To get this up and running, just right-click on the index.html file, click on Copy Path, then paste into your browser's address bar and check out what I've done. Just remember, the buttons are properly labeled so you don't need to click on all of them. 
+To get this up and running, first fork and clone the repository to your system. Then right-click on the index.html file, click on Copy Path, then paste into your browser's address bar and check out what I've done. Just remember, the buttons are properly labeled so you don't need to click on all of them. 
