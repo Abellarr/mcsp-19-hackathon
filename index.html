@@ -3,10 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<body>
-    
+<body class="bg-info-subtle">
+    <h1 id="id1" class="display-3 text-center text-danger fw-bold">Hello, MCSP-19!</h1>
+    <h4 class="text-center text-success-subtle mt-3 mb-4">You are about to begin your journey into learning Bootstrap.</h4>
+    <div class="container-md shadow bg-primary-subtle rounded border border-success-subtle border-3 py-4 px-5">
+        <p class='lead text-center fw-bold'>I've designed this site using the Bootstrap library. Here are some buttons:</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-center">
+            <button id="btnLarge1" class="btn btn-lg btn-outline-danger">This is a large-sized button</button>
+            <button id='btnReg1' class="btn btn-outline-primary">This is a regular-sized button</button>
+            <button id='btnSmall1' class="btn btn-sm btn-outline-secondary">This is a small-sized button</button>
+        </div>
+        <p class="text-center text-decoration-style-italic fw-bold mt-3"><i>This is a button group:</i></p>
+        <div class="d-flex justify-content-center">
+            <div class="btn-group">
+                <button id='btnGroup1' class="btn btn-danger">This button does nothing</button>
+                <button id='btnGroup2' class="btn btn-primary fw-bold">This button also does nothing but in bold</button>
+                <button id='btnGroup3' class="btn btn-secondary fst-italic">Yet another button that does nothing but in italics</button>
+            </div>
+        </div>
+    </div>
+    <div class="row p-4 my-5 bg-success-subtle rounded border border-success shadow">
+        <h4 class="fw-bold text-success text-center mb-4">This is an example of building containers within rows:</h4>
+        <div class="col">
+            <div class="rounded shadow border border-danger bg-danger-subtle">
+                <p class="fw-bold text-decoration-style-underline text-center lead py-1">This is a column within a container:</p>
+                <p class="text-center px-2">Don't read this part. It's pretty boring. Kinda like the "Terms & Agreements" when you update your phone. Bleh, who actually reads those?</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="rounded shadow border border-danger bg-danger-subtle">
+                <p class="fw-bold text-decoration-style-underline text-center lead py-1">This is also a column within a container:</p>
+                <p class="text-center px-2">Still here, huh? That's actually pretty sad. I was kinda hoping to sneak in something funny or cool, but hey, they can't all be winners.</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="rounded shadow border border-danger bg-danger-subtle">
+                <p class="fw-bold text-decoration-style-underline text-center lead py-1">This is another column within a container:</p>
+                <p class="text-center px-2">Funny part is I actually know how to use the Lorem Ipsum bit for this to just fill in random words (and actually did at first), but that lacks... style.</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="rounded shadow border border-danger bg-danger-subtle">
+                <p class="fw-bold text-decoration-style-underline text-center lead py-1">Omg, another column within a container:</p>
+                <p class="text-center px-2">Are you seriously still reading this? I'd call you a nerd but honestly, I'm a bit impressed. You have some serious dedication, my friend. Kudos to you.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row p-4 my-5 bg-success-subtle rounded border border-success shadow">
+        <h4 class="fw-bold text-success text-center mb-4">This is an another example of building containers within rows but adjusted the proportion of each container:</h4>
+        <div class="col-6">
+            <div class="rounded shadow border border-primary bg-primary-subtle">
+                <p class="fw-bold text-decoration-style-underline text-center lead py-1">This is column takes up half of the row it's in:</p>
+                <p class="text-center px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error aliquid totam maxime hic ducimus vero perspiciatis eaque? Sequi maxime, accusantium assumenda quaerat commodi, deserunt ipsa at nihil necessitatibus fugit numquam itaque vel non nisi! Cum tempora omnis veritatis mollitia!</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="rounded shadow border border-secondary bg-secondary-subtle">
+                <p class="fw-bold text-decoration-style-underline text-center lead py-1">This column takes up 1/4th of the row:</p>
+                <p class="text-center px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa quas pariatur. Ducimus adipisci nemo, quidem libero.</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="rounded shadow border border-warning bg-warning-subtle">
+                <p class="fw-bold text-decoration-style-underline text-center lead py-1">This column takes up 1/4th of the row:</p>
+                <p class="text-center px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nemo obcaecati sequi voluptatum tempora tenetur.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row p-4 my-5">
+        <h4 class="fw-bold text-success text-center mb-4">Now I've built the containers without styling the row they're in:</h4>
+        <div class="col">
+            <div class="rounded shadow border border-info bg-primary-subtle">
+                <p class="fw-bold text-center lead mt-3">This box is to highlight how <br>versatile this library is!</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="rounded shadow border border-success bg-secondary-subtle">
+                <p class="fw-bold text-center lead mt-3">This box is to highlight how <br>versatile this library is!</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="rounded shadow border border-primary bg-warning-subtle">
+                <p class="fw-bold text-center lead mt-3">This box is to highlight how <br>versatile this library is!</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="rounded shadow border border-dark bg-dark-subtle">
+                <p class="fw-bold text-center lead mt-3">This box is to highlight how <br>versatile this library is!</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
