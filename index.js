@@ -5,12 +5,12 @@ btnLarge1.onclick = function() {
 
 let btnReg1 = document.getElementById('btnReg1');
 btnReg1.onclick = function() {
-    alert('No one told you to click the button!!');
+    alert('Why are you still clicking buttons!!');
 }
 
 let btnSmall1 = document.getElementById('btnSmall1');
 btnSmall1.onclick = function() {
-    alert('No one told you to click the button!!');
+    alert('Are you even listening to me?!?!');
 }
 
 let btnGroup1 = document.getElementById('btnGroup1');
